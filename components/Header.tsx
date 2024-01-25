@@ -1,7 +1,7 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import { FC, ReactNode } from "react";
+import { FC, ReactNode, useEffect } from "react";
 import { BiSearch } from "react-icons/bi";
 import { HiHome } from "react-icons/hi";
 import { RxCaretLeft, RxCaretRight } from "react-icons/rx";
