@@ -8,11 +8,13 @@ import { FC } from "react";
 import { AiOutlinePlus } from "react-icons/ai";
 import { TbPlaylist } from "react-icons/tb";
 import MediaItem from "./MediaItem";
+import useOnPlay from "@/hooks/useOnPlay";
 
 const Library: FC<{ songs: Song[] }> = ({ songs }) => {
   const authModal = useAuthModal();
   const uploadModal = useModalUpload();
   const { user } = useUser();
+  const onPlay = useOnPlay(songs);
 
   const onClick = () => {
     if (!user) authModal.onOpen();
@@ -35,7 +37,11 @@ const Library: FC<{ songs: Song[] }> = ({ songs }) => {
       </div>
       <div className="flex flex-col gap-y-2 mt-4 px-3">
         {songs.map((song: Song) => (
-          <MediaItem key={song.id} data={song} onClick={() => {}} />
+          <MediaItem
+            key={song.id}
+            data={song}
+            onClick={(id: string) => onPlay(id)}
+          />
         ))}
       </div>
     </div>
