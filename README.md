@@ -1,3 +1,3 @@
 # Spotify clone
 
-![fon](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbzmQuu3B614TvoZkl19nZ0ZXwCFOG3r22Eg&s)
+![fon](https://e3.365dm.com/23/07/1600x900/skynews-spotify-prices-rise_6229304.jpg?20230725035308)
