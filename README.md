@@ -15,13 +15,13 @@
 Copy the project repository and download it to yourself via terminal
 
 ```bash
-git clone https://github.com/Rofiyev/netflix.git
+git clone https://github.com/Rofiyev/spotify_clone.git
 ```
 
 Copy the terminal command and go inside the created project
 
 ```bash
-cd netflix
+cd spotify_clone
 ```
 
 Copy the terminal command and wait for it to download all the dependencies that the project will need
