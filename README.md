@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">Spotify Clone</h1>
 
-## Getting Started
+<div style="display:flex; align-items:center; justify-content: center;">
+  <img src="https://camo.githubusercontent.com/ad43cb24da52ab95bab8a867668cbbb53395885fd32a15fe09eca22b1226aad6/68747470733a2f2f656d2d636f6e74656e742e7a6f626a2e6e65742f736f757263652f6d6963726f736f66742d7465616d732f3336332f746563686e6f6c6f676973742d6c696768742d736b696e2d746f6e655f31663964312d31663366622d323030642d31663462622e706e67" alt="emoji" width="150" />
+</div>
 
-First, run the development server:
+<div style="display:flex; align-items:center; justify-content: center;">
+  <h2>Dilshod Rofiyev</h2>
+</div>
+
+![Fon](/public/images/spotify_clone.png)
+
+### Open the project yourself!
+
+Copy the project repository and download it to yourself via terminal
+
+```bash
+git clone https://github.com/Rofiyev/netflix.git
+```
+
+Copy the terminal command and go inside the created project
+
+```bash
+cd netflix
+```
+
+Copy the terminal command and wait for it to download all the dependencies that the project will need
+
+```bash
+npm install
+```
+
+Copy the terminal command and wait for the project to run!
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<img src="https://camo.githubusercontent.com/a8049f002e5865e5dc0401b5cf3be6b6a2f92ffe0f93d88ab02b4f3f06495e77/68747470733a2f2f656d2d636f6e74656e742e7a6f626a2e6e65742f736f757263652f616e696d617465642d6e6f746f2d636f6c6f722d656d6f6a692f3335362f7061727479696e672d666163655f31663937332e676966" alt="Emoji" width="25" /> Congratulations, you have successfully launched your project: [localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Libraries used
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- NextJS 14
+- TypeScript
+- TailwindCSS
+- Supabase Database
+- Supabase Authentication
+- Zustand
+- Stripe
