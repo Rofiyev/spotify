@@ -34,7 +34,7 @@ Copy the terminal command and wait for the project to run!
 npm run dev
 ```
 
-<img src="https://camo.githubusercontent.com/a8049f002e5865e5dc0401b5cf3be6b6a2f92ffe0f93d88ab02b4f3f06495e77/68747470733a2f2f656d2d636f6e74656e742e7a6f626a2e6e65742f736f757263652f616e696d617465642d6e6f746f2d636f6c6f722d656d6f6a692f3335362f7061727479696e672d666163655f31663937332e676966" alt="Emoji" width="25" /> Congratulations, you have successfully launched your project: [localhost:3000](http://localhost:3000)
+<img src="https://camo.githubusercontent.com/a8049f002e5865e5dc0401b5cf3be6b6a2f92ffe0f93d88ab02b4f3f06495e77/68747470733a2f2f656d2d636f6e74656e742e7a6f626a2e6e65742f736f757263652f616e696d617465642d6e6f746f2d636f6c6f722d656d6f6a692f3335362f7061727479696e672d666163655f31663937332e676966" alt="Emoji" width="25" /> Congratulations, you have successfully launched your project: [localhost:3001](http://localhost:3001)
 
 ### Libraries used
 
