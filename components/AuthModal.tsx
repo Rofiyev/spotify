@@ -40,10 +40,10 @@ const AuthModal = () => {
         magicLink
         providers={["github", "google"]}
         supabaseClient={supabaseClient}
-        providerScopes={{
-          github: "https://rof1yev-spotify-clone.vercel.app/auth/v1/callback",
-          google: "https://rof1yev-spotify-clone.vercel.app/auth/v1/callback",
-        }}
+        // providerScopes={{
+        //   github: "https://rof1yev-spotify-clone.vercel.app/auth/v1/callback",
+        //   google: "https://rof1yev-spotify-clone.vercel.app/auth/v1/callback",
+        // }}
         appearance={{
           theme: ThemeSupa,
           variables: {
