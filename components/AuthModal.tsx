@@ -41,8 +41,8 @@ const AuthModal = () => {
         providers={["github", "google"]}
         supabaseClient={supabaseClient}
         providerScopes={{
-          github: "https://zjdjltdjypdxlaknzhqg.supabase.co/auth/v1/callback",
-          google: "https://zjdjltdjypdxlaknzhqg.supabase.co/auth/v1/callback",
+          github: "https://rof1yev-spotify-clone.vercel.app/auth/v1/callback",
+          google: "https://rof1yev-spotify-clone.vercel.app/auth/v1/callback",
         }}
         appearance={{
           theme: ThemeSupa,
