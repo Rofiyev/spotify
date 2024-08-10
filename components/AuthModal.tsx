@@ -40,9 +40,12 @@ const AuthModal = () => {
         magicLink
         providers={["github", "google"]}
         supabaseClient={supabaseClient}
+        providerScopes={{
+          github: "https://zjdjltdjypdxlaknzhqg.supabase.co/auth/v1/callback",
+          google: "https://zjdjltdjypdxlaknzhqg.supabase.co/auth/v1/callback",
+        }}
         appearance={{
           theme: ThemeSupa,
-
           variables: {
             default: {
               colors: {
