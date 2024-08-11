@@ -53,13 +53,11 @@ export const MyUserContextProvider = (props: Props) => {
           const userDetailPromise = result[0];
           const subscriptionPromise = result[1];
 
-          if (userDetailPromise.status === "fulfilled") {
+          if (userDetailPromise.status === "fulfilled")
             setUserDetails(userDetailPromise.value.data as UserDetails);
-          }
 
-          if (subscriptionPromise.status === "fulfilled") {
+          if (subscriptionPromise.status === "fulfilled")
             setSubscription(subscriptionPromise.value.data as Subscription);
-          }
 
           setIsLoadingData(false);
         }
@@ -84,9 +82,7 @@ export const MyUserContextProvider = (props: Props) => {
 export const useUser = () => {
   const context = useContext<UserContextType | undefined>(UserContext);
 
-  if (context === undefined) {
-    throw new Error("User Context is undefined");
-  }
+  if (!context) throw new Error("User Context is undefined");
 
   return context;
 };
