@@ -13,13 +13,13 @@
 Copy the project repository and download it to yourself via terminal
 
 ```bash
-git clone https://github.com/Rofiyev/spotify_clone.git
+git clone https://github.com/Rofiyev/spotify.git
 ```
 
 Copy the terminal command and go inside the created project
 
 ```bash
-cd spotify_clone
+cd spotify
 ```
 
 Copy the terminal command and wait for it to download all the dependencies that the project will need
